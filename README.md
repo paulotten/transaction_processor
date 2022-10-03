@@ -28,4 +28,4 @@ Once an account is locked you cannot do anything (deposit/withdrawal/dispute/res
 
 Disputes/resolutions/chargebacks with amounts are assumed to be invalid and are rejected.
 
-Withdrawal data is never read from the list of transactions (TransactionMap). This program would work without storing it at all. This is information is stored because it is assumed to be useful outside the scope of the program. (Disputes/resolutions/chargebacks would be stored to if they had their own unique transaction ids.)
+Withdrawal data is never read from the list of transactions (TransactionMap). This program would work without storing it at all. This is information is stored because it is assumed to be useful outside the scope of the program. (Disputes/resolutions/chargebacks would be stored too if they had their own unique transaction ids.)
